@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="cs/jquery-ui.css">
+     <link rel="stylesheet" href="cs/bootstrap.min.css">
+     <link rel="stylesheet" href="cs/style.css">
+     <link rel="stylesheet" href="cs/media.css">
+</head>
+<body>
+     <div class="container">
+        <h1 class="text-info">click the button to show an alert</h1>
+        <button id="btn" class="btn btn-dark">show danger</button>
+         
+        <h2 class="text-info"> click the button to show/hide the text</h2>
+        <button id="show" class="btn btn-dark">show text</button>
+        <button id="hide" class="btn btn-green">hide text</button>
+        <h3 id="h3"> hello little red riding hood</h3>
+     </div>
+
+    <hr>
+    <!-- Draggable -->
+    <div class="container">
+        <div id="draggable" class="ui-widget-content">
+            <p>Drag me around</p>
+        </div>
+    </div>
+    
+    <hr>
+    <!-- tab -->
+    <div class="container">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Nunc tincidunt</a></li>
+                <li><a href="#tabs-2">Proin dolor</a></li>
+                <li><a href="#tabs-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs-2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs-3">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+        </div>
+    </div>
+
+   <hr>
+    <div class="container">
+        <ul id="selectable">
+            <li class="ui-widget-content">Item 1</li>
+            <li class="ui-widget-content">Item 2</li>
+            <li class="ui-widget-content">Item 3</li>
+            <li class="ui-widget-content">Item 4</li>
+            <li class="ui-widget-content">Item 5</li>
+            <li class="ui-widget-content">Item 6</li>
+            <li class="ui-widget-content">Item 7</li>
+        </ul>
+    </div>
+ 
+    <hr>
+    <div class="container">
+        <div class="shortable/drop placehoder">
+            <ul id="sortable">
+                <li class="ui-state-default">Item 1</li>
+                <li class="ui-state-default">Item 2</li>
+                <li class="ui-state-default">Item 3</li>
+                <li class="ui-state-default">Item 4</li>
+                <li class="ui-state-default">Item 5</li>
+                <li class="ui-state-default">Item 6</li>
+                <li class="ui-state-default">Item 7</li>
+            </ul>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="container">
+        <div id="accordion">
+            <div class="group">
+              <h3>Section 1</h3>
+                <div>
+                 <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                </div>
+            </div>
+            <div class="group">
+              <h3>Section 2</h3>
+                <div>
+                  <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                </div>
+            </div>
+            <div class="group">
+              <h3>Section 3</h3>
+                <div>
+                  <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                    <ul>
+                      <li>List item one</li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="group">
+              <h3>Section 4</h3>
+                <div>
+                  <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="controls">
+            <div class="brand-wrap">
+              <h3>1.) Select a brand</h3>
+              <div class="brand">
+                <label for="brand-jquery">jQuery</label>
+                <input type="radio" name="brand" id="brand-jquery" data-background-color="#0769AD" data-color="#7ACEF4" data-background-image="url(images/jqureq.png)">
+                <label for="brand-jquery-ui">jQuery UI</label>
+                <input type="radio" name="brand" id="brand-jquery-ui" data-background-color="#B24926" data-color="#FAA523" data-background-image="url(images/jquery-ui.png)" checked>
+                <label for="brand-jquery-mobile">jQuery Mobile</label>
+                <input type="radio" name="brand" id="brand-jquery-mobile" data-background-color="#108040" data-color="#3EB249" data-background-image="url(images/jquery-mobile.png)">
+                <label for="brand-sizzle">Sizzle</label>
+                <input type="radio" name="brand" id="brand-sizzle" data-background-color="#9A1B1E" data-color="#FAA523" data-background-image="url(images/sizzle.png)">
+                <label for="brand-qunit">QUnit</label>
+                <input type="radio" name="brand" id="brand-qunit" data-background-color="#390F39" data-color="#9C3493" data-background-image="url(images/qunit.png)">
+              </div>
+            </div>
+            <div class="shape-wrap">
+              <h3>2.) Select a shape</h3>
+              <div class="shape-bar">
+                <label for="shape-circle">Circle</label>
+                <input type="radio" name="shape" id="shape-circle" value="circle" checked>
+                <label for="shape-square">Square</label>
+                <input type="radio" name="shape" id="shape-square" value="square">
+                <label for="shape-pill">Pill</label>
+                <input type="radio" name="shape" id="shape-pill" value="pill">
+                <label for="shape-rectangle">Rectangle</label>
+                <input type="radio" name="shape" id="shape-rectangle" value="rectangle">
+              </div>
+            </div>
+            <div class="toggle-wrap">
+              <h3>3) Customize</h3>
+              <div class="toggles">
+                <label for="color">Shadow</label>
+                <input class="toggle brand-toggle" type="checkbox" name="color" id="color">
+                <label for="border">Border</label>
+                <input class="toggle" type="checkbox" name="border" id="border">
+                <label for="background-color">Background</label>
+                <input class="toggle brand-toggle" type="checkbox" name="background-color" id="background-color" checked>
+                <label for="background-image">Background Image</label>
+                <input class="toggle brand-toggle" type="checkbox" name="background-image" id="background-image" checked>
+              </div>
+            </div>
+            <div class="shape circle background jquery-ui"></div>
+          </div>
+
+    </div>
+
+    <hr>
+    <div class="container">
+        <p>Date: <input type="text" id="datepicker" size="30"></p>
+        <p>Animations:<br>
+            <select id="anim">
+                <option value="show">Show (default)</option>
+                <option value="slideDown">Slide down</option>
+                <option value="fadeIn">Fade in</option>
+                <option value="blind">Blind (UI Effect)</option>
+                <option value="bounce">Bounce (UI Effect)</option>
+                <option value="clip">Clip (UI Effect)</option>
+                <option value="drop">Drop (UI Effect)</option>
+                <option value="fold">Fold (UI Effect)</option>
+                <option value="slide">Slide (UI Effect)</option>
+                <option value>None</option>
+            </select>
+        </p>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div id="dialog-form" title="Create new user ">
+                <p class="validateTips">All form fields are required.</p>
+ 
+            <form>
+                <fieldset>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="Jeffrey Dahmer" class="text ui-widget-content ui-corner-all">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" value="Jeffrey@Dahmer.com" class="text ui-widget-content ui-corner-all">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
+ 
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+                </fieldset>
+            </form>
+        </div>
+        
+        <div id="users-contain" class="ui-widget">
+        <h1>Existing Users:</h1>
+            <table id="users" class="ui-widget ui-widget-content">
+                <thead>
+                    <tr class="ui-widget-header ">
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>Ted Bundy</td>
+                      <td>Ted.Bundy@example.com</td>
+                      <td>TedBundy☻</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button id="create-user">Create new user</button>
+    </div>
+
+    <hr>
+    <div class="container">
+        <ul id="menu">
+            <li class="ui-widget-header"><div>Category 1</div></li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="ui-widget-header"><div>Category 2</div></li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
+    </div>
+
+    <hr>
+    <div class="container">
+        <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+            <span class="ui-icon ui-icon-volume-on" style="float:left; margin:-2px 5px 0 0;"></span>
+             Master volume
+        </p>
+           
+        <div id="master" style="width:260px; margin:15px;"></div>
+           
+            <p class="ui-state-default ui-corner-all" style="padding:4px;margin-top:4em;">
+             <span class="ui-icon ui-icon-signal" style="float:left; margin:-2px 5px 0 0;"></span>
+             Graphic EQ
+            </p>
+           
+        <div id="eq">
+            <span>82</span>
+            <span>75</span>
+            <span>57</span>
+            <span>38</span>
+            <span>46</span>
+            <span>44</span>
+            <span>71</span>
+        </div>
+    </div>
+
+    <hr>
+    <div class="continer">
+        <p>
+            <label for="spinner">Amount to donate:</label>
+            <input id="spinner" name="spinner" value="5">
+        </p>
+           
+          <p>
+            <label for="currency">Currency to donate</label>
+            <select id="currency" name="currency">
+              <option value="en-US">US $</option>
+              <option value="de-DE">EUR &#x20AC;</option>
+              <option value="ja-JP">YEN &#xA5;</option>
+            </select>
+        </p>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Nunc tincidunt</a></li>
+              <li><a href="#tabs-2">Proin dolor</a></li>
+              <li><a href="#tabs-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs-1">
+              <h2>Content heading 1</h2>
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+            </div>
+            <div id="tabs-2">
+              <h2>Content heading 2</h2>
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs-3">
+              <h2>Content heading 3</h2>
+              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <p><a href="#" title="That&apos;s what this widget is">Tooltips</a> can 
+               be attached to any element. When you hover the element with 
+               your mouse, the title attribute is displayed in a little box next 
+               to the element, just like a native tooltip.
+        </p>
+        <p>But as it&apos;s not a native tooltip, it can be styled. Any themes 
+            built with <a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery 
+            UI&apos;s theme builder application">ThemeRoller</a>
+            will also style tooltips accordingly.</p>
+        <p>Tooltips are also useful for form elements, to show some 
+            additional information in the context of each field.
+        </p>
+        <p><label for="age">Your age:</label><input id="age" title="We ask for your age 
+            only for statistical purposes."></p>
+        <p>Hover the field to see the tooltip.</p>
+    </div>
+
+    <hr>
+    <div class="container">
+      <div class="widget">
+        <h1>Widget Buttons</h1>
+        <button>A button element</button>
+       
+        <input type="submit" value="A submit button">
+       
+        <a href="#">An anchor</a>
+      </div>
+      <h1>CSS Buttons</h1>
+      <button class="ui-button ui-widget ui-corner-all">A button element</button>
+       
+      <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+       
+      <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+    </div>
+
+    <hr>
+    <div class="container">
+      <div id="dialog" title="File Download">
+        <div class="progress-label">Starting download...</div>
+        <div id="progressbar"></div>
+      </div>
+      <button id="downloadButton">Start Download</button>
+    </div>
+    
+    <hr>
+    <div class="container">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+          <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. 
+            Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, 
+            hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+      <select name="effects" id="effecttypes">
+        <option value="blind"></option>
+        <option value="clip"></option>
+        <option value="color"></option>
+        <option value="explode"></option>
+        <option value="fade"></option>
+        <option value="highlight"></option>
+        <option value="puff"></option>
+        <option value="pulstate"></option>
+        <option value="shake"></option>
+        <option value="size"></option>
+        <option value="slide"></option>
+        <option value="scale"></option>
+        <option value="fold"></option>
+        <option value="drop"></option>
+      </select>
+    </div>
+
+    <hr>
+    <div class="container">
+      <div id="parent">
+        <p>
+        This is the position parent element.
+        </p>
+      </div>
+       
+      <div class="positionable" id="positionable1">
+        <p>
+        to position
+        </p>
+      </div>
+       
+      <div class="positionable" id="positionable2">
+        <p>
+        to position 2
+        </p>
+      </div>
+       
+      <div style="padding: 20px; margin-top: 75px;">
+        position...
+        <div style="padding-bottom: 20px;">
+          <b>my:</b>
+          <select id="my_horizontal">
+            <option value="left">left</option>
+            <option value="center">center</option>
+            <option value="right">right</option>
+          </select>
+          <select id="my_vertical">
+            <option value="top">top</option>
+            <option value="center">center</option>
+            <option value="bottom">bottom</option>
+          </select>
+        </div>
+        <div style="padding-bottom: 20px;">
+          <b>at:</b>
+          <select id="at_horizontal">
+            <option value="left">left</option>
+            <option value="center">center</option>
+            <option value="right">right</option>
+          </select>
+          <select id="at_vertical">
+            <option value="top">top</option>
+            <option value="center">center</option>
+            <option value="bottom">bottom</option>
+          </select>
+        </div>
+        <div style="padding-bottom: 20px;">
+          <b>collision:</b>
+          <select id="collision_horizontal">
+            <option value="flip">flip</option>
+            <option value="fit">fit</option>
+            <option value="flipfit">flipfit</option>
+            <option value="none">none</option>
+          </select>
+          <select id="collision_vertical">
+            <option value="flip">flip</option>
+            <option value="fit">fit</option>
+            <option value="flipfit">flipfit</option>
+            <option value="none">none</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <div class="container">
+      <div>
+        <div id="my-widget1">color me</div>
+        <div id="my-widget2">color me</div>
+        <div id="my-widget3">color me</div>
+        <button id="disable">Toggle disabled option</button>
+        <button id="green">Go green</button>
+      </div>
+    </div>
+
+
+    <script src="javascript/jquery.min.js"></script>
+    <script src="javascript/jquery-ui.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+#draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
+
+/* selectable */
+#feedback { 
+    font-size: 1.4em; 
+}
+#selectable .ui-selecting { 
+    background: #FECA40; 
+}
+#selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+#selectable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; width: 60%; 
+}
+#selectable li { 
+    margin: 3px; 
+    padding: 0.4em; 
+    font-size: 1.4em; 
+    height: 18px; 
+}
+
+/* shortable/drop placeholder */
+#sortable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+#sortable li { 
+    margin: 0 5px 5px 5px; 
+    padding: 5px; 
+    font-size: 1.2em; 
+    height: 1.5em; 
+}
+#sortable li { 
+    height: 1.5em; 
+    line-height: 1.2em; 
+}
+.ui-state-highlight { 
+    height: 1.5em; 
+    line-height: 1.2em; 
+}
+
+/* Checkboxradio */
+.shape {
+    margin-left: 4em;
+    margin-top: 2.5em;
+    height: 8em;
+    width: 8em;
+    box-shadow: 4px 4px 8px;
+    color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50%;
+}
+.circle, .pill {
+    border-radius: 8em;
+}
+.pill, .rectangle {
+    width: 16em;
+}
+.square, .circle {
+    margin-left: 9em;
+}
+.border {
+    border: 2px solid #333333;
+}
+.toggles {
+    width: 200px;
+}
+.toggle-wrap, .shape {
+    display: inline-block;
+    vertical-align: top;
+}
+.controls {
+    background: #ccc;
+    padding: 1em;
+    display: inline-block;
+}
+
+/* dilog */
+label, input { 
+    display:block; 
+}
+input.text { 
+    margin-bottom:12px; 
+    width:95%; 
+    padding: .4em; 
+}
+fieldset { 
+    padding:0; 
+    border:0; 
+    margin-top:25px; 
+}
+h1 { 
+    font-size: 1.2em; 
+    margin: .6em 0; 
+}
+div#users-contain { 
+    width: 350px; 
+    margin: 20px 0; 
+}
+div#users-contain table { 
+    margin: 1em 0; 
+    border-collapse: collapse; 
+    width: 100%; 
+}
+div#users-contain table td, div#users-contain table th { 
+    border: 1px solid #eee; 
+    padding: .6em 10px; 
+    text-align: left; 
+}
+.ui-dialog .ui-state-error { 
+    padding: .3em; 
+}
+.validateTips { 
+    border: 1px solid transparent; 
+    padding: 0.3em; 
+}
+
+/* menu */
+.ui-menu { 
+    width: 200px; 
+}
+.ui-widget-header { 
+    padding: 0.2em; 
+}
+
+/* slider/equalizer */
+.eq,span {
+    height:120px; 
+    float:left; 
+    margin:15px
+}
+
+/* tabs */
+.ui-tabs-vertical { 
+    width: 55em; 
+}
+.ui-tabs-vertical .ui-tabs-nav { 
+    padding: .2em .1em .2em .2em; 
+    float: left; 
+    width: 12em; 
+}
+.ui-tabs-vertical .ui-tabs-nav li { 
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+    margin: 0 -1px .2em 0; 
+}
+.ui-tabs-vertical .ui-tabs-nav li a { 
+    display:block; 
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+    padding-bottom: 0; 
+    padding-right: .1em; 
+    border-right-width: 1px; 
+}
+.ui-tabs-vertical .ui-tabs-panel { 
+    padding: 1em; 
+    float: right; 
+    width: 40em;
+}
+
+/* tooltips */
+label {
+    display: inline-block;
+    width: 5em;
+}
+
+/* progressbar */
+
+#progressbar {
+    margin-top: 20px;
+}
+ 
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+ 
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+/* toggle */
+.toggler {
+    width: 500px;
+    height: 200px;
+  }
+  #button {
+    padding: .5em 1em;
+    text-decoration: none;
+  }
+  #effect {
+    position: relative;
+    width: 240px;
+    height: 170px;
+    padding: 0.4em;
+  }
+  #effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+}
+
+/* position */
+#parent {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #777;
+    background-color: #fbca93;
+    text-align: center;
+}
+.positionable {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #bcd5e6;
+    text-align: center;
+}
+#positionable1 {
+    height: 75px;
+    width: 75px;
+}
+#positionable2 {
+    height: 40px;
+    width: 120px;
+}
+select, input {
+    margin-left: 15px;
+}
+
+/* Widget Factory */
+.custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+.custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
